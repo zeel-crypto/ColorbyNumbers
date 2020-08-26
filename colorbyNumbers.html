@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Different Numbers</title>
+
+
+</head>
+<body>
+   <h1 style= "text-align: center"><p id="xyz"></p></h1></centre>
+<script>
+    var a = '';
+        a += Math.floor(Math.random() * 10);
+        a += Math.floor(Math.random() * 10);
+        a += Math.floor(Math.random() * 10);
+        a += Math.floor(Math.random() * 10);
+        a += Math.floor(Math.random() * 10);
+        a += Math.floor(Math.random() * 10);
+           
+        a = '#' + parseInt(a, 16).toString(16);
+        document.getElementById("xyz").innerHTML = a;
+        document.body.style.backgroundColor = a;
+</script>
+    
+</body>
+</html>
