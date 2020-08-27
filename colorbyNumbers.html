@@ -1,39 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Different Numbers</title>
-<style>
-    .button{
-        border-radius: 12px; 
-        text-align: center; 
-        margin-left: 550px; 
+    <style>
+      .button {
+        border-radius: 12px;
+        text-align: center;
+        margin-left: 550px;
         margin-top: 200px;
-    }
-</style>
-
-</head>
-<body>
-    
-   <button class="button">
-       <h1>
-           <p id="xyz"></p>
-       </h1>
+      }
+    </style>
+  </head>
+  <body>
+    <button class="button">
+      <h1>
+        <p id="xyz"></p>
+      </h1>
     </button>
-<script>
-    var a = '';
-        a += Math.floor(Math.random() * 10);
-        a += Math.floor(Math.random() * 10);
-        a += Math.floor(Math.random() * 10);
-        a += Math.floor(Math.random() * 10);
-        a += Math.floor(Math.random() * 10);
-        a += Math.floor(Math.random() * 10);
-           
-        a = '#' + parseInt(a, 16).toString(16);
-        document.getElementById("xyz").innerHTML = a;
-        document.body.style.backgroundColor = a;
-</script>
-    
-</body>
+    <script>
+      var a = "";
+      a += Math.floor(Math.random() * 10);
+      a += Math.floor(Math.random() * 10);
+      a += Math.floor(Math.random() * 10);
+      a += Math.floor(Math.random() * 10);
+      a += Math.floor(Math.random() * 10);
+      a += Math.floor(Math.random() * 10);
+
+      a = "#" + parseInt(a, 16).toString(16);
+      document.getElementById("xyz").innerHTML = a;
+      document.body.style.backgroundColor = a;
+    </script>
+  </body>
 </html>
